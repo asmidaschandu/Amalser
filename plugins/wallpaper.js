@@ -1280,7 +1280,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-        await message.client.sendMessage(message.jid, Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'Made by Killadi-Mwone'})
+        await message.client.sendMessage(message.jid, Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'Made by ᖱ♬ន_ន៩Ʀ'})
 
     }));
     Asena.addCommand({pattern: 'wallpaper', fromMe: true, desc: Lang.WP, dontAddCommandList: true}, (async (message, match) => {
@@ -1912,7 +1912,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-        await message.client.sendMessage(message.jid, Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '```Killadi-Mwone```'})
+        await message.client.sendMessage(message.jid, Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: '```ᖱ♬ន_ន៩Ʀ```'})
 
     }));
 }
