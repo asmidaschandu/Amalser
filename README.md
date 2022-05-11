@@ -9,11 +9,11 @@
 <img src=photo/amalser.png>
 </p>
   <p align="center">
-<a href="https://github.com/cyberchekuthan"><img title="Author" src="https://img.shields.io/badge/Author-Amal-cyberchekuthan/Amalser_v2?color=blue&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/asmidaschandu"><img title="Author" src="https://img.shields.io/badge/Author-asmidaschandu/Das_ser?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/cyberchekuthan">Amalser_v2</a> to make it public
+Project created by <a href="https://github.com/asmidaschandu">Das_ser</a> to make it public
     <br>
        | © |
         Reserved |
@@ -24,27 +24,22 @@ Project created by <a href="https://github.com/cyberchekuthan">Amalser_v2</a> to
 <div align="center"> 
 
 
-## Click Youtube logo to Watch full video and findout password in this video 👇
-
- [![ANY DOUBT REFER IT](https://www.linkpicture.com/q/YouTube-Logo-700x394.png)](https://youtu.be/5MKycJxmA4c)
-
-
   ### Simple Method
   
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/asmidaschandu/Amalser)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/asmidaschandu/Das_ser)
 
 
 
   
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@asmidaschandu/Amalser-2)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@asmidaschandu/Dasser)
   
 ### The Hard Method
 ```js
 GET QR
 $ apt install git
 $ apt install nodejs --fix-missing
-$ git clone https://github.com/asmidaschandu/Amalser
-$ cd Amalser
+$ git clone https://github.com/asmidaschandu/Das_ser
+$ cd Das_ser
 $ npm install @adiwajshing/baileys
 $ npm install chalk
 $ node julie.js
@@ -52,8 +47,8 @@ $ node julie.js
       
 ```js
 SETUP
-$ git clone https://github.com/asmidaschandu/Amalser
-$ cd Amalser
+$ git clone https://github.com/asmidaschandu/Das_ser
+$ cd Das_ser
 $ npm i
 $ node julie.js
 ```
@@ -61,10 +56,10 @@ $ node julie.js
 ----
 
   <p align="center">
-  <a href="httsp://github.com/Amal-ser/Amalser">
+  <a href="httsp://github.com/asmidaschandu/Das_ser">
     
-<a href="https://github.com/Amal-ser/followers">
-<img src="https://img.shields.io/github/repo-size/cyberchekuthan/Amalser_v2?color=green&label=Repo%20total%20size&style=plastic">
+<a href="https://github.com/asmidaschandu/followers">
+<img src="https://img.shields.io/github/repo-size/asmidaschandu/Das_ser?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
 <a href="https://github.com/Amal-ser/followers"
 <img title="Followers" src="https://img.shields.io/github/followers/Amal-ser?color=blue&style=flat-square"></a>
