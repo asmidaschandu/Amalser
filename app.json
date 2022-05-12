@@ -1,7 +1,7 @@
 {
     "name": "Das_ser ",
-    "description": "Dasser is the Modified Version of WhatsAsena, Made By @Amal-ser with Baileys.",
-    "logo": "https://i.imgur.com/9zRNU2w.jpg",
+    "description": "Das_ser is the Modified Version of WhatsAsena, Made By @asmidaschandu with Baileys.",
+    "logo": "https://i.imgur.com/voemjqo.jpg",
     "keywords": ["whatsapp", "userbot", "julie", "WhatsAsena", "mwol", "bot", "ai"],
     "repository": "https://github.com/asmidaschandu/Das_ser",
     "website":   "https://github.com/farhan-dqz/Julie-Mwol",
@@ -12,12 +12,17 @@
             "description": "Type the code when you got by scanning QR through WhatsApp.",
             "required": true
         },
+        "GROUP_LINK": {
+            "description": "Enter your group link",
+            "required": true,
+            "value": "https://chat.whatsapp.com/CoXJILbV5lt887ecbBP9VL"
+        },
         "SUDO": {
             "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 91xxxxxxxxx,0",
             "required": false
         },
          "PASSWORD": {
-            "description": "enter the password, don't change password",
+            "description": "Don't change this password",
             "required": true,
             "value": "afamk"
         },
@@ -31,6 +36,26 @@
             "required": false,
             "value": "true"
         },
+        "V_HEADER": {
+            "description": "Enter your logo name here ",
+            "required": true,
+            "value": "ꪶ͢ɪͥᴛͭsᷤ ͢ᴍͫᴇͤᡃ⃝Ɗαടടҽɾ࿐"
+        },
+        "VERIFIED": {
+            "description": "Give with number jid",
+            "required": true,
+            "value": "919495944713@s.whatsapp.net"
+        },
+        "ALL_IMG": {
+            "description": "Set the logo",
+            "required": true,
+            "value": "https://i.imgur.com/9zRNU2w.jpg"
+        },
+        "DIALOGUE": {
+            "description": "set the Dialouge",
+            "required": true,
+            "value": "Ɗαട ғᴀɴ ʙᴏᴛ...♡︎"
+        },
         "AUTO_STICKER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
@@ -42,9 +67,24 @@
             "value": "https://i.imgur.com/9zRNU2w.jpg"
         },
         "LOGO_NAME": {
-            "description": "Set the logo list name",
+            "description": "Enter your logo name here",
             "required": true,
-            "value": "ᖱ♬ន_ន៩Ʀ"
+            "value": "ᴅᴀssᴇʀ"
+        },
+        "INSTAGRAM": {
+            "description": "Enter your Instagram id here",
+            "required": true,
+            "value": "https://instagram.com/_das.x?utm_medium=copy_link"
+        },
+        "YOUTUBE_LINK": {
+            "description": "Enter your YouTube link here",
+            "required": true,
+            "value": "false"
+        },
+        "GIT_LINK": {
+            "description": "Enter your git link here",
+            "required": true,
+            "value": "https://github.com/asmidaschandu/Das_ser"
         },
         "INBO_BLOCK": {
             "description": "Inbox Blocking System. True koduthal ningalude pml vann chila bad words upoayogikunnavare bot block aakum block aakendengil false kodukuka",
@@ -71,10 +111,20 @@
             "required": true,
             "value": "false"
         },
+        "FAKE_REMOVE": {
+            "description": "Fake number removing.",
+            "required": true,
+            "value": "false"
+        },
+        "C_CODE": {
+            "description": "Fake number not  removing country code.",
+            "required": true,
+            "value": "91"
+        },
         "TAG_REPLY": {
             "description": "Enter jid of your number so that you get a audio reply when metioned example - 91xxxxxxxxxx@s.whatsapp.net - for india",
             "required": false,
-            "value": "919495944713@s.whatsapp.net"
+            "value": "919495944713@s.whatsapp.net"         
         },
         "BGM_DURATION": {
             "description": "FUNY BGM DURATION  codded by SAIDALI",
@@ -96,15 +146,15 @@
             "required": true,
             "value": "^[.!;]"
         },
-        "TALKING_PINKY": {
-            "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
+        "CHAT_BOT": {
+            "description": "Turn your account into a chatbot! .kaztroser on/off",
             "required": true,
             "value": "false"
         },
-        "NO_LOG": {
+        "FIX_ERROR": {
             "description": " Set true if you don't want to see error log.",
             "required": false,
-            "value": "true"
+            "value": "on"
         },
         "SEND_READ": {
             "description": "Write true if you want to throw seen.",
@@ -112,9 +162,9 @@
             "value": "true"
         },
         "ALL_CAPTION": {
-            "description": "Caption for images and videos generated by pinky bot",
+            "description": "Caption for images and videos generated by kaztroser bot",
             "required": false,
-            "value": "ᖱ♬ន_ន៩Ʀ"
+            "value": "*ᴍᴀᴅᴇ ʙʏ ᴅᴀssᴇʀ*"
         },
         "HEROKU": {
             "description": "If it is running in Heroku, type true.",
@@ -123,7 +173,7 @@
         },
         "HEROKU_API_KEY": {
             "description": "Heroku API Key.",
-            "required": true,
+            "required": true
         },
         "MUTE_MESSAGE": {
             "description": "Customizable Mute Message! Use => default, to change back.",
@@ -133,27 +183,12 @@
         "TAG_HEADER": {
             "description": "Heading when taging all",
             "required": false,
-            "value": "ᖱ♬ន_ន៩Ʀ"
+            "value": "*ʜᴇʟᴏ ɢᴜʏs*"
         },
-        "EMOJI_COMMAND": {
-            "description": "You can change Command list emojis.)",
+        "CMD_LIST": {
+            "description": "You can change Command list emojis like: help/❤️/😅/🍃/💌.)",
             "required": true,
-            "value": "🃏"
-        },
-        "EMOJI_DESCRIPTION": {
-            "description": "You can change command list emojis.)",
-            "required": true,
-            "value": "🦸‍♂️"
-        },
-        "EMOJI_EXAMPLE": {
-            "description": "You can change command list emojis.)",
-            "required": true,
-            "value": "💬"
-        },
-        "EMOJI_WARNING": {
-            "description": "You can change command list emojis.)",
-            "required": true,
-            "value": "⚠"
+            "value": "💙/🌟/🥀/⚡"
         },
         "BLOCK_CHAT": {
             "description": "Choose in which chat the bot won't work there. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
@@ -176,18 +211,18 @@
             "value": "default"
         },
         "BOT_NAME": {
-            "description": "heading for .list command reply",
-            "required": false,
-            "value": "•━━━━╼⤏Das-ser⤎╾━━━•"
+            "description": "Enter your bot name here",
+            "required": true,
+            "value": "ꪶ͢ɪͥᴛͭsᷤ ͢ᴍͫᴇͤᡃ⃝ᴅᴀssᴇʀ࿐"
         },
         "WORK_TYPE": {
-            "description": "Amalser Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "description": "Kaztroser Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
             "value": "public"
         },
         "HEROKU_APP_NAME": {
             "description": "Heroku APP Name.",
-            "required": true,
+            "required": true
         },
         "DEBUG": {
             "description": "Debugging",
@@ -195,9 +230,9 @@
             "value": "false"
         },
         "OWNER_NAME": {
-            "description": "reply for .owner ! give your details, Use => default, to change back.",
+            "description": "Enter your name here",
             "required": false,
-            "value": "Das-ser"
+            "value": "Ɗαട"
         },
         "OWNER_NUMBER": {
             "description": "Enter the owner number, You must enter your number, Please don't enter the number with country code ( example : 91 for indian ) Also don't enter space & + on the number ( example : 91996132xxxx for indian ). ( This number will be shown on some commands )",
@@ -210,17 +245,18 @@
             "value": "919495944713"
         },
         "DEPLOYER": {
-            "description": "enter your name here",
+            "description": "Enter your name here",
             "required": false
         },
         "REMOVE_BG_API_KEY": {
             "description": "https://remove.bg",
             "required": false,
+            "value": "d4ie8ScAtE8EaBwYE58tJLHT"
         },
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "╔══╗╔╗─╔══╗╔╗─╔╗╔═╗\n║╔╗║║║─╚║║╝║╚╦╝║║╦╝\n║╠╣║║╚╗╔║║╗╚╗║╔╝║╩╗\n╚╝╚╝╚═╝╚══╝─╚═╝─╚═╝\n*╭➤ 𝐈𝐀𝐌 𝐒𝐓𝐈𝐋𝐋 𝐀𝐋𝐈𝐕𝐄 𝐁𝐑𝐎*» \n*│❖ Oᴡɴᴇʀ :http://ī.am/ꪶ͢Ɗαടꫂ⁩*\n*│❖ Wᴏʀᴋ ᴛʏᴘᴇ : ᴘᴜʙʟɪᴄ*  \n*│❖ ᴅᴏɴᴛ ᴜsᴇ ʙᴀᴅ ᴡᴏʀᴅs*\n*│❖ ᴛʏᴘᴇ .ʟɪsᴛ ᴄᴏᴍᴍᴀɴᴅs*\n*│❖ ᴀᴅᴍɪɴ ʙᴏᴛ* \n*╭◪ ᴄᴏᴅᴇᴅ ʙʏ : asmidaschandu*\n*╰─────────────────☘︎*"
+            "value": "╔══╗╔╗─╔══╗╔╗─╔╗╔═╗\n║╔╗║║║─╚║║╝║╚╦╝║║╦╝\n║╠╣║║╚╗╔║║╗╚╗║╔╝║╩╗\n╚╝╚╝╚═╝╚══╝─╚═╝─╚═╝\n*╭➤ 𝐈𝐀𝐌 𝐒𝐓𝐈𝐋𝐋 𝐀𝐋𝐈𝐕𝐄 𝐁𝐑𝐎*» \n*│❖ Oᴡɴᴇʀ :http://ī.am/ꪶ͢ᴀͥᴊͭᴀᷤʏᴀͫɴͤꫂ⁩*\n*│❖ Wᴏʀᴋ ᴛʏᴘᴇ : ᴘᴜʙʟɪᴄ*  \n*│❖ ᴅᴏɴᴛ ᴜsᴇ ʙᴀᴅ ᴡᴏʀᴅs*\n*│❖ ᴛʏᴘᴇ .ʟɪsᴛ ᴄᴏᴍᴍᴀɴᴅs*\n*│❖ ᴀᴅᴍɪɴ ʙᴏᴛ* \n*╭◪ ᴄᴏᴅᴇᴅ ʙʏ : ᴀᴊғx*\n*╰─────────────────☘︎*"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
