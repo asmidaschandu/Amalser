@@ -8,7 +8,7 @@
     "success_url": "https://github.com/farhan-dqz/Julie-Mwol",
     "stack": "container",
     "env": {
-        "DAS_SER_CODE": {
+        "DASSER_CODE": {
             "description": "Type the code when you got by scanning QR through WhatsApp.",
             "required": true
         },
@@ -18,7 +18,7 @@
         },
          "PASSWORD": {
             "description": "enter the password, don't change password",
-            "required": true
+            "required": true,
             "value": "afamk"
         },
         "LANGUAGE": {
@@ -73,7 +73,7 @@
         },
         "TAG_REPLY": {
             "description": "Enter jid of your number so that you get a audio reply when metioned example - 91xxxxxxxxxx@s.whatsapp.net - for india",
-            "required": false
+            "required": false,
             "value": "919495944713@s.whatsapp.net"
         },
         "BGM_DURATION": {
@@ -123,7 +123,7 @@
         },
         "HEROKU_API_KEY": {
             "description": "Heroku API Key.",
-            "required": true
+            "required": true,
         },
         "MUTE_MESSAGE": {
             "description": "Customizable Mute Message! Use => default, to change back.",
@@ -187,7 +187,7 @@
         },
         "HEROKU_APP_NAME": {
             "description": "Heroku APP Name.",
-            "required": true
+            "required": true,
         },
         "DEBUG": {
             "description": "Debugging",
@@ -215,7 +215,7 @@
         },
         "REMOVE_BG_API_KEY": {
             "description": "https://remove.bg",
-            "required": false
+            "required": false,
         },
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
