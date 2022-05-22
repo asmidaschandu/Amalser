@@ -1,10 +1,17 @@
-FROM fusuf/whatsasena:latest
+FROM node:lts-buster
 
-RUN git clone https://github.com/asmidaschandu/Das_ser /root/WhatsAsenaDuplicated
-WORKDIR /root/WhatsAsenaDuplicated/
-ENV TZ=Asia/Kolkata
-RUN npm install supervisor -g
-RUN yarn install --no-audit
-RUN git clone https://github.com/farhan-dqz/media
+RUN apt-get update && \
+  apt-get install -y \
+  ffmpeg \
+  imagemagick \
+  webp && \
+  apt-get upgrade -y && \
+  rm -rf /var/lib/apt/lists/*
 
-CMD ["node", "bot.js"]
+COPY package.json .
+
+RUN npm install
+
+COPY . .
+
+CMD ["node", "."]
