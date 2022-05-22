@@ -28,7 +28,9 @@ Project created by <a href="https://github.com/asmidaschandu">Das_ser</a> to mak
   
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/asmidaschandu/Das_ser)
 
+ ### Railway Deploy
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/d488NH?referralCode=cb6Zs2)
 
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@asmidaschandu/Dasser)
